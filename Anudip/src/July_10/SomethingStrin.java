@@ -1,7 +1,5 @@
 package July_10;
 
-import java.util.Iterator;
-
 public class SomethingStrin {
 public static void main(String[] args) {
 	String s=new String("Welcome");
@@ -26,5 +24,8 @@ public static void main(String[] args) {
 		a=a+i;
 	}
 System.out.println(a);
+
+String aa="     P      ";
+System.out.println(aa.trim());
 }
 }
